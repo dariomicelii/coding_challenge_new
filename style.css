@@ -1,0 +1,79 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.contenitore{
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-family: sans-serif;
+    margin-bottom: 15%;
+}
+
+header{
+    text-align: center;
+    padding: 2px;
+    margin-top: 5%;
+}
+
+.image{
+    width: 200px;
+}
+
+header > h1{
+    color: limegreen;
+}
+
+nav{
+    text-align: center;
+    background-color: limegreen;
+    padding: 10px;
+}
+
+main{
+    margin-bottom: 5%;
+}
+
+section{
+    color: white;
+}
+
+span, h2{
+    display: inline-block;
+}
+
+.quadrato::before{
+    content: "\2BC0";
+}
+
+.freccia .luogo{
+    display: inline-block;
+}
+
+.luogo::before{
+    content: "\21A6";
+}
+
+.carica1{
+    border: 10px solid rgb(240, 191, 12);
+    border-radius: 7px;
+    margin-right: 400px;
+}
+
+.carica2{
+    border: 10px solid limegreen;
+    border-radius: 7px;
+    margin-right: 350px;
+}
+
+.carica3{
+    border: 10px solid rgb(250, 2, 2);
+    border-radius: 7px;
+    margin-right: 550px;
+}
+
+
+
